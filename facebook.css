@@ -1,0 +1,199 @@
+body {
+	padding:0px;
+	margin:0px;
+}
+
+header {
+	height:34px;
+	position:fixed;
+	top:0px;
+	width:100%;
+	background:#3b5998;
+	overflow:auto;
+	border-bottom: 1px solid #133783;
+	-webkit-box-shadow: 1px 1px 4px #222; /* Safari and Chrome */
+	box-shadow: 1px 1px 4px #222;
+}
+
+nav {
+	width:200px;
+	float:left;
+	margin: 50px auto;
+}
+
+nav ul {
+   list-style:none;
+}
+
+nav ul li a {
+	color:#333333;
+	font-size:12px;
+	text-decoration:none;
+	font-family:Tahoma;
+	font-weight:bold;
+	margin:0px;
+}
+
+.current {
+	background:#D8DFEA;
+}
+
+header ul {
+	list-style:none;
+	padding:4px 0px 0px 0px;
+	margin:0px;
+	overflow:auto;
+}
+
+header ul li {
+	float:left;
+	font-weight:bold;
+	font-family:Tahoma;
+	font-size:16px;
+	padding:0px 0px 0px 0px;
+}
+
+header ul li a {
+	color:#fff;
+	text-decoration:none;
+	margin:0px 0px 0px 4px;
+}
+
+header input[type=text] {
+	width:300px;
+	margin: 2px 10px px 0px;
+	border:1px solid #e5e5e5;
+	font-family:Tahoma;
+	font-size:13px;
+	color:#7e7784;
+	font-family:Tahoma;
+	font-size:12px;
+}
+
+div.wrapper {
+	margin:0px auto;
+	width:981px;
+	margin: 0px auto;
+}
+
+header div.wrapper {
+	margin-top:0px;
+}
+
+div.profile {
+	overflow:auto;
+	margin:0px;
+	
+
+}
+
+.profile img{
+    width:60px; 
+    height:60px;
+}
+
+.profile h4 {
+	margin:0px;
+	padding:0px 0px 0px 0px;
+}
+
+h3 {
+	color:#999999;
+	font-size:9px;
+	font-family:Tahoma;
+	padding:0px;
+}
+
+h4 a {
+	color:#3b5998;
+	font-family:Tahoma;
+	text-decoration:none;
+	font-size:13px;
+}
+
+#feed {
+	margin: 0px 0px 0px 200px;
+	text-align:left;
+	border:1px solid #cCCCCC
+	
+}
+
+.meta {
+	border-bottom:1px solid #cCCCCC;
+	padding:4px 0px 0px 0px;
+	color:#9999A1;
+}
+
+.meta a{
+	color:#6D84B4;
+	text-decoration:none;
+}
+
+p {
+	font-family:Tahoma;
+}
+
+.post img {
+	width:80px;
+	height:80px;
+}
+
+footer {
+	margin-left:200px;
+}
+
+footer p {
+	font-family:Tahoma;
+	font-size:12px;
+	color:#9999A1;
+}
+
+footer a {
+	font-family:Tahoma;
+	font-size:12px;
+	color:#6D84B4;
+	text-decoration:none;
+}
+
+/* ICON STYLES */
+i {
+	background:url(images/fb-icon-set.png) no-repeat;
+	display:inline-block;
+	height:16px;
+	width:16px;	
+}
+
+i.requests {
+	background-position:-34px -115px ;
+	margin:4px;
+}
+
+i.messages {
+	background-position:-78px -255px;
+	margin:4px;
+}
+
+i.notifications {
+	background-position:-60px -10px;
+	margin:4px;
+}
+
+i.news {
+	background-position:-48px -559px;
+}
+
+i.message {
+	background-position:-50px -425px;
+}
+
+i.events {
+	background-position:-52px -575px;
+}
+
+i.photos {
+	background-position:-65px -558px;
+}
+
+i.music {
+	background-position: -68px -477px;
+}
